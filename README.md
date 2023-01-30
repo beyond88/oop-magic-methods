@@ -15,4 +15,4 @@ All magic methods of OOP, and practical use case and real world examples.
 - `__invoke()`
 - `__set_state($array)`
 - `__clone()`
-- `__debugInfo()`
+- `__debugInfo()`: It is another utility magic method that is called automatically when we want to dump any object with the help of the var_dump() function. In case this method is not defined as associating an object, then it dumps all public, protected, and private properties of that class.
