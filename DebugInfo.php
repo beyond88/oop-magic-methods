@@ -1,4 +1,5 @@
 <?php
+
 class DebugInfo{
 
     public $employee;
