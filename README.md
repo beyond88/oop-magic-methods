@@ -4,7 +4,7 @@ All magic methods of OOP, and practical use case and real world examples.
 
 - `__construct()`
 - `__destruct()`
-- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Call.php">`__call($fun, $arg)`</a>
+- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Call.php">`__call($fun, $arg)`</a>: The `__call()` method is called when you’re trying to invoke inaccessible methods, the methods that you haven’t defined in your class.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/CallStatic.php">`__callStatic($fun, $arg)`</a>
 
