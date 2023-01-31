@@ -25,4 +25,3 @@ $objStudent = new SetState('John','john@example.com');
 var_export($objStudent);
 
 // Output: Student::__set_state(array( 'name' => 'John', 'email' => 'john@example.com', )) 
-?>
