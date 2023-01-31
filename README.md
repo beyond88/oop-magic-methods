@@ -14,7 +14,7 @@ All magic methods of OOP, and practical use case and real world examples.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Isset.php">`__isset($content)`</a>: The `__isset()` magic method is called when you call the isset() method on inaccessible or non-existent object properties.
 
-- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/UnSet.php">`__unset($content)`</a>
+- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Unset.php">`__unset($content)`</a>: `__unset()` is another magic method that is invoked automatically for destroying a variable and freeing up memory space. When `__isset()` is used for checking whether a variable exists or not, the `__unset()` simply destroys a variable when used on non-existing or inaccessible properties.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Sleep.php">`__sleep()`</a>: This method is called first while executing serialize(). It returns the object’s property array on cleaning PHP class objects before serialization.
 
