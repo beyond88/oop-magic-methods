@@ -22,3 +22,5 @@ if ( isset( $obj2->a ) )
     unset( $obj2->a );
 echo "Destroyed obj2 ->a ";
 
+//Output: Destroyed obj2 -> a
+
