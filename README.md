@@ -8,7 +8,7 @@ All magic methods of OOP, and practical use case and real world examples.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/CallStatic.php">`__callStatic($fun, $arg)`</a>
 
-- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Get.php">`__get($property)`</a>
+- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Get.php">`__get($property)`</a>: The `__get()` method is exactly the opposite of `__set()`. The `__get()` magic method is called when you try to read data from inaccessible or non-existent object properties. The purpose of this method is to provide values to such properties.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Set.php">`__set($property, $value)`</a>: The `__set()` magic method is called when you try to set data to inaccessible or non-existent object properties. The purpose of this method is to set extra object data for which you haven’t defined object properties explicitly.
 
