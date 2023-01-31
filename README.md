@@ -12,7 +12,7 @@ All magic methods of OOP, and practical use case and real world examples.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Set.php">`__set($property, $value)`</a>: The `__set()` magic method is called when you try to set data to inaccessible or non-existent object properties. The purpose of this method is to set extra object data for which you haven’t defined object properties explicitly.
 
-- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Isset.php">`__isset($content)`</a>
+- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Isset.php">`__isset($content)`</a>: The `__isset()` magic method is called when you call the isset() method on inaccessible or non-existent object properties.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/UnSet.php">`__unset($content)`</a>
 
