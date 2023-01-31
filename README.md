@@ -20,7 +20,7 @@ All magic methods of OOP, and practical use case and real world examples.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/WakeUp.php">`__wakeup()`</a>: The magic method helps to re-establish any connections and start-up tasks when programmers invoke the `unserialize()` function with the class object. This method gets invoked automatically when the deserialization takes place.
 
-- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/ToString.php">`__toString()`</a>
+- <a href="https://github.com/beyond88/oop-magic-methods/blob/main/ToString.php">`__toString()`</a>: The `__toString()` magic method allows you to define what you would like to display when an object of the class is treated like a string. If you use echo or print on your object, and you haven’t defined the `__toString()` method, it’ll give an error.
 
 - <a href="https://github.com/beyond88/oop-magic-methods/blob/main/Invoke.php">`__invoke()`</a>: This method is defined in a class that will be called while trying to call an object in a way of calling function.
 
