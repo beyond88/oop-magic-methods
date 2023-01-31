@@ -1,6 +1,6 @@
 <?php
 
-class Get {
+class Call {
 
     public function __call( $methodName, $arguments ) 
     {
@@ -10,5 +10,5 @@ class Get {
     
 }
 
-$objStudent = new Get();
+$objStudent = new Call();
 $objStudent->getStudentDetails(1);
