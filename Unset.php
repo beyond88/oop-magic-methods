@@ -4,13 +4,13 @@ class Unset {
 
   private $dat = array();
   
-	public function __isset( $n ){
+  public function __isset( $n ){
     return isset( $this->dat[$n] );
   } 
   
   public function __unset( $n ){
-		echo "__unset() magic method invoked.";
-		unset( $this->dat[$n] );      
+	echo "__unset() magic method invoked.";
+	unset( $this->dat[$n] );      
   }
   
 }
